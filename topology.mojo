@@ -106,7 +106,6 @@ fn analyze_slopes(slopes: MatrixFloat32, window_size: Int, threshold: Float32) -
 fn test_fiber_bundle_hypothesis(
     embeddings: MatrixFloat32,
     r_min: Float32 = 0.01,
-    r_max: Float32 = 20.0,
     n_r: Int = 50,
     window_size: Int = 10,
     change_threshold: Float32 = 1.5
